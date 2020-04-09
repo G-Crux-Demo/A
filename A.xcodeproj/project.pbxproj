@@ -13,6 +13,8 @@
 		FF7152A8243DC5D50015D6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7152A7243DC5D50015D6F7 /* Assets.xcassets */; };
 		FF7152AB243DC5D50015D6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7152A9243DC5D50015D6F7 /* LaunchScreen.storyboard */; };
 		FF7152AE243DC5D50015D6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7152AD243DC5D50015D6F7 /* main.m */; };
+		FF7152DC243DCD4A0015D6F7 /* GSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7152DA243DCD4A0015D6F7 /* GSAViewController.m */; };
+		FF7152E0243DCD780015D6F7 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7152DF243DCD780015D6F7 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FF7152AA243DC5D50015D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7152AC243DC5D50015D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7152AD243DC5D50015D6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF7152DA243DCD4A0015D6F7 /* GSAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAViewController.m; sourceTree = "<group>"; };
+		FF7152DB243DCD4A0015D6F7 /* GSAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAViewController.h; sourceTree = "<group>"; };
+		FF7152DE243DCD780015D6F7 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		FF7152DF243DCD780015D6F7 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		FF71529D243DC5D30015D6F7 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				FF7152E1243DD2220015D6F7 /* A */,
 				FF71529E243DC5D30015D6F7 /* AppDelegate.h */,
 				FF71529F243DC5D30015D6F7 /* AppDelegate.m */,
 				FF7152A1243DC5D30015D6F7 /* ViewController.h */,
@@ -67,6 +74,25 @@
 				FF7152A9243DC5D50015D6F7 /* LaunchScreen.storyboard */,
 				FF7152AC243DC5D50015D6F7 /* Info.plist */,
 				FF7152AD243DC5D50015D6F7 /* main.m */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		FF7152DD243DCD660015D6F7 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				FF7152DE243DCD780015D6F7 /* Target_A.h */,
+				FF7152DF243DCD780015D6F7 /* Target_A.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		FF7152E1243DD2220015D6F7 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				FF7152DD243DCD660015D6F7 /* Targets */,
+				FF7152DB243DCD4A0015D6F7 /* GSAViewController.h */,
+				FF7152DA243DCD4A0015D6F7 /* GSAViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -141,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7152DC243DCD4A0015D6F7 /* GSAViewController.m in Sources */,
 				FF7152A3243DC5D30015D6F7 /* ViewController.m in Sources */,
+				FF7152E0243DCD780015D6F7 /* Target_A.m in Sources */,
 				FF7152AE243DC5D50015D6F7 /* main.m in Sources */,
 				FF7152A0243DC5D30015D6F7 /* AppDelegate.m in Sources */,
 			);
